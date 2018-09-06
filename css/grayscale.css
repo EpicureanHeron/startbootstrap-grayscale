@@ -278,13 +278,17 @@ body {
   letter-spacing: 0.0625em;
 }
 
-a {
+/* a {
   color: #64a19d;
+} */
+
+a {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: rgba(0, 0, 0, 1);
 }
 
 .bg-black {
