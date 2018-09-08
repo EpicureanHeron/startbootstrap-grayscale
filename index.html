@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Joe Thor</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
   <!-- Custom styles for this template -->
   <!-- <link href="css/grayscale.min.css" rel="stylesheet"> -->
   <link href="css/grayscale.css" rel="stylesheet">
-
+  <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
 </head>
 
 <body id="page-top">
@@ -60,17 +60,17 @@
         <h2 class="text-white-50 mx-auto mt-2 mb-5">Web Developer</h2>
         <div class="row">
           <div class="col-md-4">
-            <a href="https://github.com/EpicureanHeron">
+            <a href="https://github.com/EpicureanHeron" target="_blank">
               <i class="fab fa-github fa-10x"></i>
             </a>
           </div>
           <div class="col-md-4">
-            <a href="https://www.linkedin.com/in/jfthor/">
+            <a href="https://www.linkedin.com/in/jfthor/" target="_blank">
               <i class="fab fa-linkedin-in fa-10x"></i>
             </a>
           </div>
           <div class="col-md-4">
-            <a href="https://jfthor.com/">
+            <a href="https://jfthor.com/" target="_blank">
               <i class="fab fa-wordpress-simple fa-10x"></i>
             </a>
           </div>
@@ -103,13 +103,25 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/OwnFlix.png" alt="">
+          <a href="https://ownflix-2018.herokuapp.com/" target="_blank">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/OwnFlix.png" alt="">
+          </a>
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
             <h4>OwnFlix</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects!
-              Download it, customize it, and publish your website!</p>
+            <p class="text-black-50 mb-0">Little Free Library meets Netflix. Full stack application deployed on Heroku.</p>
+              <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/OwnFlix" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://ownflix-2018.herokuapp.com/" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
+
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
           </div>
         </div>
       </div>
@@ -117,17 +129,31 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/burger2.png" alt="">
+          <a href="https://burger-jft-the-sequel.herokuapp.com/" target="_blank">
+            <img class="img-fluid" src="img/burger2.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Eat-da-Burger 2! The Burgering</h4>
-                <p class="mb-0 text-white-50">Refactored code from "Eat-da-Burger!" to use Sequelize package to handle ORM. Added an additional table which
-                  keeps tracks of Customers. Burger table now has a foreign key which references the customer who ate it.
-                  Newly learned: Sequelize Completed: 8/21/2018</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+
+                <p class="mb-0 text-white-50">Refactored code from "Eat-da-Burger!" to use Sequelize package to handle Object-relational mapping. Full
+                  stack application deployed on Heroku.</p>
+                <!-- Newly learned: Sequelize </p> -->
+                <!-- <p>Completed: 8/21/2018</p> -->
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/sequelizedBurger" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://burger-jft-the-sequel.herokuapp.com/" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
+
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -137,17 +163,28 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/burger.png" alt="">
+          <a href="https://burger-jft.herokuapp.com/" target="_blank">
+            <img class="img-fluid" src="img/burger.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Eat-da-Burger</h4>
-                <p class="mb-0 text-white-50">Basic CRUD app deployed on Heroku employing MVC paradigm to interact with a MySQL JAWSDB. Users can create
-                  a burger which is rendered using Handlebars. Then users can Devour any uneaten burgers. Express handles
-                  the HTTP requests. Newly learned: Handlebars, ORM and MVC paradigms Completed: 8/14/2018</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                <p class="mb-0 text-white-50">CRUD app deployed on Heroku employing MVC paradigm to interact with SQL backend. </p>
+                <!-- Newly learned: Handlebars, ORM and MVC paradigms Completed: 8/14/2018</p> -->
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/burger" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://burger-jft.herokuapp.com/" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
+
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -157,17 +194,27 @@
       <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/friendFinder.png" alt="">
+          <a href="https://friendfinder-jft.herokuapp.com/" target="_blank">
+            <img class="img-fluid" src="img/friendFinder.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Friend Finder</h4>
-                <p class="mb-0 text-white-50">Express server deployed on Heroku that presents you a survey and helps you find a new best friend. Utilizing
-                  GET and POST, information is persisted via the Express server and Heroku keeps the app up and running.
-                  Want a new friend? Give it a shot! Newly learned: Express, Heroku Completed: 8/7/2018</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+                <p class="mb-0 text-white-50">Express server deployed on Heroku, application has no backend but utilzies Gets and Posts.</p>
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/friendFinder" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://friendfinder-jft.herokuapp.com/" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
+
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -177,17 +224,26 @@
       <!-- Project Four Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/bamazon.png" alt="">
+          <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/bamazon" target="_blank">
+            <img class="img-fluid" src="img/bamazon.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Bamazon Marketplace</h4>
-                <p class="mb-0 text-white-50">Node.js application which interacts with a MySQL docker container to manage inventory for "Bamazon Inc".
-                  There are customer, manager, and supervisor files which can manipulate the SQL database in different ways.
-                  Newly learned: Docker, MySQL Completed: 7/31/2018</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                <p class="mb-0 text-white-50">Node.js application which interacts with a MySQL docker to manage inventory.</p>
+                <hr class="d-none d-lg-block mb-0 ml-20">
+                <!-- Newly learned: Docker, MySQL Completed: 7/31/2018</p> -->
+                <div class="customFormat">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/bamazon" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+
+                </div>
+                <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
               </div>
             </div>
           </div>
@@ -197,17 +253,25 @@
       <!-- Project Five Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/wordConstr.png" alt="">
+          <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/constructor-word-guess" target="_blank" class="text-primary customFormat bolder">
+            <img class="img-fluid" src="img/wordConstr.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Command Line Hangman</h4>
-                <p class="mb-0 text-white-50">Play hangman through the command line. Three files make up the application, but running "node index.js" runs
-                  the entire program. Test your D&D monster knowledge. Newly learned: Javascript constructors, importing/exporting
-                  files, the inquirer package Completed: 7/24/2018</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+                <p class="mb-0 text-white-50">Node.js application which uses constructors to play Hangman.</p>
+                <hr class="d-none d-lg-block mb-0 ml-20">
+                <!-- Newly learned: Docker, MySQL Completed: 7/31/2018</p> -->
+                <div class="customFormat">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/constructor-word-guess" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+
+                </div>
               </div>
             </div>
           </div>
@@ -217,17 +281,27 @@
       <!-- Project Six Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/liribot.png" alt="">
+          <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/liriBot" target="_blank">
+            <img class="img-fluid" src="img/liribot.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">LIRI Bot</h4>
-                <p class="mb-0 text-white-50">Language Interpretation and Recognition Interface (LIRI) is able to pull in tweets, query Spotify, get movie
-                  info, or make up her own mind. Download, run NPM install, enter in your credentials in the .env, and you
-                  are set. Newly learned: Node.js, NPM Completed: 7/17/2018</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                <p class="mb-0 text-white-50">Node.js application which can search tweets, query Spotify, or get movie info.</p>
+
+                <!-- Completed: 7/17/2018</p> -->-->
+                <hr class="d-none d-lg-block mb-0 ml-20">
+                <!-- Newly learned: Docker, MySQL Completed: 7/31/2018</p> -->
+                <div class="customFormat">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/liriBot" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+
+                </div>
               </div>
             </div>
           </div>
@@ -237,19 +311,30 @@
       <!-- Project Seven Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/campnow.png" alt="">
+          <a href="https://epicureanheron.github.io/CampNow/" target="_blank">
+            <img class="img-fluid" src="img/campnow.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">CampNow</h4>
-                <p class="mb-0 text-white-50">You know which state you are in and you want to camp in the next 5 days. Input the state, receive all of its national parks. Chose a park and receive all the campground info and the 5 day forecast.
+                <p class="mb-0 text-white-50">CampNow helps spontaneous campers make up their mind. It uses three APIs: The National Park Services, Open
+                  Weather Map, and Google Maps to help get a tent pitched as quick as possible.</p>
+                <!-- 6/30/2018</p> -->
 
-                  Newly learned: Google places library, more AJAX, collobrating via GitHub
-                  
-                  Completed: 6/30/2018</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/CampNow" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://epicureanheron.github.io/CampNow/" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
+
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -259,19 +344,29 @@
       <!-- Project Eight  Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/rps.png" alt="">
+          <a href="https://epicureanheron.github.io/RPS-Multiplayer/index.html" target="_blank">
+            <img class="img-fluid" src="img/rps.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Firebase Rock, Paper, Scissors</h4>
-                <p class="mb-0 text-white-50">Play rock, paper, scissors against a friend online. You can even chat in realtime (let the mind games begin!). Very minimalist user interface insures that you focus on the game and no extra bells and whistles.
+                <p class="mb-0 text-white-50">Full stack application deployed with a Firebase backend. Play rock, paper, scissors and chat in real time.
+                </p>
+                <!-- Completed: 6/26/2018</p> -->
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/RPS-Multiplayer" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://epicureanheron.github.io/RPS-Multiplayer/index.html" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
 
-                  Newly learned: Communicating with servers and Firebase
-                  
-                  Completed: 6/26/2018</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -281,19 +376,29 @@
       <!-- Project Nine Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/DoctorWho.png" alt="">
+          <a href="https://epicureanheron.github.io/GifTastic/index.html" target="_blank">
+            <img class="img-fluid" src="img/DoctorWho.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Doctor Who Gifs</h4>
-                <p class="mb-0 text-white-50">Press a button and receive 10 Doctor Who gifs. You can add your own button as well. Click on the images to make them move.
+                <h4 class="text-white">Gif API</h4>
+                <p class="mb-0 text-white-50">Utilizing Giftastic's API and ajax calls, create a button and pull in 10 gifs featuring that word or phrase.
+                </p>
+                <!-- 6/19/2018</p> -->
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/GifTastic" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://epicureanheron.github.io/GifTastic/index.html" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
 
-                  Newly learned: APIs and AJAX
-                  
-                  Completed: 6/19/2018</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -303,19 +408,28 @@
       <!-- Project Ten Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/GoTTrivia.png" alt="">
+          <a href="https://epicureanheron.github.io/TriviaGame/index.html" target="_blank">
+            <img class="img-fluid" src="img/GoTTrivia.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Game of Thrones Trivia</h4>
-                <p class="mb-0 text-white-50">Test your knowledge of the Game of Thrones world. You have 30 seconds per question, with a total of 10 questions.
+                <p class="mb-0 text-white-50">Trivia game deployed on Github pages. Uses javascript's setInterval and Jquery. </p>
+                <!-- 6/12/2018</p> -->
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/TriviaGame" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://epicureanheron.github.io/TriviaGame/index.html" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
 
-                  Newly learned: setInterval
-                  
-                  Completed: 6/12/2018</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -325,19 +439,27 @@
       <!-- Project Eleven Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/StarWarsRPG.png" alt="">
+          <a href="https://epicureanheron.github.io/unit-4-game/index.html" target="_blank">
+            <img class="img-fluid" src="img/StarWarsRPG.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Star Wars Brawl</h4>
-                <p class="mb-0 text-white-50">Chose a Star Wars character by clicking on the portrait, then chose an enemy. See if you are powerful enough to defeat three enemies.
+                <p class="mb-0 text-white-50">Jquery battle game featuring Star Wars characters.</p>
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/unit-4-game" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://epicureanheron.github.io/unit-4-game/index.html" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
 
-                  Newly learned: jQuery
-                  
-                  Completed: 6/7/2018</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>
@@ -347,19 +469,27 @@
       <!-- Project Twelve Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/tng.png" alt="">
+          <a href="https://epicureanheron.github.io/Word-Guess-Game/index.html" target="_blank">
+            <img class="img-fluid" src="img/tng.png" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Star Trek Hangman</h4>
-                <p class="mb-0 text-white-50">The game randomly choses a word from an array once a key is pressed. If you have your volume on, you may here Captain Picard say, "Make it so!"
+                <p class="mb-0 text-white-50">Javascript hangman game with a Star Trek theme.</p>
+                <div class="customFormat">
+                  <hr class="d-none d-lg-block mb-0 ml-20">
+                  <br>
+                  <p>
+                    <a href="https://github.com/EpicureanHeron/EpicureanHeron.github.io/tree/master/Word-Guess-Game" target="_blank" class="text-primary customFormat bolder">Go to the Github Repo</a>
+                  </p>
+                  <a href="https://epicureanheron.github.io/Word-Guess-Game/index.html" target="_blank" class="btn btn-primary js-scroll-trigger customFormat">
+                    Launch the App</a>
 
-                  Newly learned: Javascript
-                  
-                  Completed: 5/31/2018</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+                  <!-- <hr class="d-none d-lg-block mb-0 ml-20"> -->
+                </div>
               </div>
             </div>
           </div>

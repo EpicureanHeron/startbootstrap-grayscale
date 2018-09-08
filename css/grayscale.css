@@ -311,3 +311,11 @@ footer {
 margin: 10%;
 text-decoration: none;
 }
+
+.bolder {
+  font-weight: 700
+}
+
+.customFormat {
+  text-align: center;
+}
